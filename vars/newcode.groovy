@@ -1,4 +1,10 @@
+node
+{ 
 def call()
 {
-  echo " My name is $usernameInputvalue"
+  stage('print')
+  {
+  echo " My name is Ram"
+  }
 }  
+}
